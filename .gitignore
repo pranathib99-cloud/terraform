@@ -1,0 +1,28 @@
+# Terraform generated files and directories
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*backup
+*.tfplan
+.tfvars
+.tfvars.json
+crash.log
+
+# Local overrides
+override.tf
+override.tf.json
+
+# Provider specific files (if any)
+# For example, if you're using AWS, you might have:
+# .aws/credentials
+
+
+# Terraform generated files
+.terraform/
+*.tfplan
+*.tfstate
+*.tfstate.*
+# Crash log files
+crash.log
+# Specific terraform credentials files
+# .terraform.lock.hcl is usually committed, but others might not be.
